@@ -35,7 +35,7 @@ except ImportError:
 import django_tables2 as tables
 
 from django.conf import settings
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 from django.http import HttpResponse, Http404
 from django.utils.html import strip_tags
 
